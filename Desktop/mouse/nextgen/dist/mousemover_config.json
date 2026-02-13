@@ -1,0 +1,81 @@
+{
+  "hover_interval": 5,
+  "scroll_interval": 15,
+  "click_interval": 120,
+  "hover_delta": 25,
+  "scroll_range": [
+    80,
+    250
+  ],
+  "user_move_threshold": 5,
+  "user_idle_grace": 3,
+  "mode": "human",
+  "log_to_file": true,
+  "log_level": "INFO",
+  "enable_sounds": false,
+  "auto_start": false,
+  "patterns": {
+    "figure8": [
+      [
+        0,
+        0
+      ],
+      [
+        20,
+        20
+      ],
+      [
+        0,
+        40
+      ],
+      [
+        -20,
+        20
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "square": [
+      [
+        0,
+        0
+      ],
+      [
+        30,
+        0
+      ],
+      [
+        30,
+        30
+      ],
+      [
+        0,
+        30
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "triangle": [
+      [
+        0,
+        0
+      ],
+      [
+        25,
+        15
+      ],
+      [
+        -25,
+        15
+      ],
+      [
+        0,
+        0
+      ]
+    ]
+  }
+}
